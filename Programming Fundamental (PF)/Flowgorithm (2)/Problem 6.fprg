@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Noshad Jawad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-09 04:28:19 PM"/>
+        <attribute name="created" value="Tm9zaGFkIEphd2FkOyBMQVBUT1AtTjlPSzEwOUo7IDIwMjItMTItMDk7IDA0OjIwOjIxIFBNOyAzNTE3"/>
+        <attribute name="edited" value="Tm9zaGFkIEphd2FkOyBMQVBUT1AtTjlPSzEwOUo7IDIwMjItMTItMDk7IDA0OjI4OjE5IFBNOyAzNTMy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="fifty" type="Integer" array="False" size=""/>
+            <declare name="hundred" type="Integer" array="False" size=""/>
+            <declare name="fivehundred" type="Integer" array="False" size=""/>
+            <declare name="thousand" type="Integer" array="False" size=""/>
+            <declare name="deposit" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the number of 50 Rs notes : &quot;"/>
+            <input variable="fifty"/>
+            <output expression="&quot;Enter the number of 100 Rs notes : &quot;"/>
+            <input variable="hundred"/>
+            <output expression="&quot;Enter the number of 500 Rs notes : &quot;"/>
+            <input variable="fivehundred"/>
+            <output expression="&quot;Enter the number of 1000 Rs notes : &quot;"/>
+            <input variable="thousand"/>
+            <assign variable="deposit" expression="(fifty * 50) + (hundred * 100) + (fivehundred * 500) + (thousand * 1000)"/>
+            <output expression="&quot;Total amount of deposited money : &quot; &amp; deposit &amp; &quot; Rs&quot;"/>
+        </body>
+    </function>
+</flowgorithm>

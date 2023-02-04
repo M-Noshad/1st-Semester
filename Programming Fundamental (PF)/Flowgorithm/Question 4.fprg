@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Noshad Jawad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-15 02:59:43 PM"/>
+        <attribute name="created" value="Tm9zaGFkIEphd2FkOyBMQVBUT1AtTjlPSzEwOUo7IDIwMjItMTItMTU7IDAyOjQ1OjA2IFBNOyAzNTIy"/>
+        <attribute name="edited" value="Tm9zaGFkIEphd2FkOyBMQVBUT1AtTjlPSzEwOUo7IDIwMjItMTItMTU7IDAyOjU5OjQzIFBNOyAzNTI4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Real" array="False" size=""/>
+            <declare name="y" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter co-ordinate of x : &quot;"/>
+            <input variable="x"/>
+            <output expression="&quot;Enter co-ordinate of y : &quot;"/>
+            <input variable="y"/>
+            <if expression="x==0 AND y==0">
+                <then>
+                    <output expression="&quot;Point is on Origin&quot;"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="x&gt;0 AND y==0">
+                <then>
+                    <output expression="&quot;Point is on positive X-axis&quot;"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="x&lt;0 AND y==0">
+                <then>
+                    <output expression="&quot;Point is on negative X-axis&quot;"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="y&gt;0 AND x==0">
+                <then>
+                    <output expression="&quot;Point is on Positive Y-axis&quot;"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="y&lt;0 AND x==0">
+                <then>
+                    <output expression="&quot;Point is on negative Y-axis&quot;"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="x&gt;0 AND y&gt;0">
+                <then>
+                    <output expression="&quot;Point is in 1st Quadrant&quot;"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="x&lt;0 AND y&gt;0">
+                <then>
+                    <output expression="&quot;Point is in 2nd Quadrant&quot;"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="x&lt;0 AND y&lt;0">
+                <then>
+                    <output expression="&quot;Point is in 3rd Quadrant&quot;"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="x&gt;0 AND y&lt;0">
+                <then>
+                    <output expression="&quot;Point is in 4th Quadrant&quot;"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

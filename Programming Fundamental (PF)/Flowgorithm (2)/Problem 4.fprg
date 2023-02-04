@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Noshad Jawad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-09 03:42:56 PM"/>
+        <attribute name="created" value="Tm9zaGFkIEphd2FkOyBMQVBUT1AtTjlPSzEwOUo7IDIwMjItMTItMDk7IDAzOjMyOjA4IFBNOyAzNTI0"/>
+        <attribute name="edited" value="Tm9zaGFkIEphd2FkOyBMQVBUT1AtTjlPSzEwOUo7IDIwMjItMTItMDk7IDAzOjQyOjU2IFBNOyAzNTI4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="R" type="Real" array="False" size=""/>
+            <declare name="H" type="Real" array="False" size=""/>
+            <declare name="Const" type="Real" array="False" size=""/>
+            <declare name="V" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter radius of cylinder : &quot;"/>
+            <input variable="R"/>
+            <output expression="&quot;Enter height of cylinder : &quot;"/>
+            <input variable="H"/>
+            <assign variable="Const" expression="Pi"/>
+            <assign variable="V" expression="Const * R^2 * H"/>
+            <output expression="&quot;Volume of cylinder : &quot; &amp; V"/>
+        </body>
+    </function>
+</flowgorithm>

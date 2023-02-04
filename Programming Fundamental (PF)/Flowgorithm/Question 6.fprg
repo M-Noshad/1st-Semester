@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Noshad Jawad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-17 10:48:04 AM"/>
+        <attribute name="created" value="Tm9zaGFkIEphd2FkOyBMQVBUT1AtTjlPSzEwOUo7IDIwMjItMTItMTc7IDEwOjMzOjI4IEFNOyAzNTA5"/>
+        <attribute name="edited" value="Tm9zaGFkIEphd2FkOyBMQVBUT1AtTjlPSzEwOUo7IDIwMjItMTItMTc7IDEwOjQ4OjA0IEFNOyAzNTA5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="weight" type="Integer" array="False" size=""/>
+            <declare name="numchocolate" type="Integer" array="False" size=""/>
+            <declare name="choice" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the weight of a single chocolate (in ounce) : &quot;"/>
+            <input variable="weight"/>
+            <output expression="&quot;Enter the number of chocolates sold : &quot;"/>
+            <input variable="numchocolate"/>
+            <output expression="&quot;Enter 1 for weight in ounces&quot;"/>
+            <output expression="&quot;Enter 2 for weight in pounds&quot;"/>
+            <output expression="&quot;Enter 3 for weight in grams&quot;"/>
+            <output expression="&quot;Enter 4 for weight in kilograms&quot;"/>
+            <input variable="choice"/>
+            <if expression="choice=1">
+                <then>
+                    <assign variable="choice" expression="weight*numchocolate"/>
+                    <output expression="choice &amp; &quot; ounces&quot;"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="choice=2">
+                <then>
+                    <assign variable="choice" expression="(weight*numchocolate)/16"/>
+                    <output expression="choice &amp; &quot; pounds&quot;"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="choice=3">
+                <then>
+                    <assign variable="choice" expression="(weight*numchocolate)*28.3495"/>
+                    <output expression="choice &amp; &quot; grams&quot;"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="choice=4">
+                <then>
+                    <assign variable="choice" expression="(weight*numchocolate)*0.0283495"/>
+                    <output expression="choice &amp; &quot; kilograms&quot;"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

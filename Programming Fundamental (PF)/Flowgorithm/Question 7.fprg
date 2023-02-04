@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Noshad Jawad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-17 10:54:06 AM"/>
+        <attribute name="created" value="Tm9zaGFkIEphd2FkOyBMQVBUT1AtTjlPSzEwOUo7IDIwMjItMTItMTc7IDEwOjQ4OjA4IEFNOyAzNTEz"/>
+        <attribute name="edited" value="Tm9zaGFkIEphd2FkOyBMQVBUT1AtTjlPSzEwOUo7IDIwMjItMTItMTc7IDEwOjU0OjA2IEFNOyAzNTA4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter 1st number : &quot;"/>
+            <input variable="a"/>
+            <output expression="&quot;Enter 2nd number : &quot;"/>
+            <input variable="b"/>
+            <output expression="&quot;Enter 3rd number : &quot;"/>
+            <input variable="c"/>
+            <if expression="a&gt;b">
+                <then>
+                    <if expression="a&gt;c">
+                        <then>
+                            <output expression="&quot;1st number is greatest&quot;"/>
+                        </then>
+                        <else/>
+                    </if>
+                </then>
+                <else/>
+            </if>
+            <if expression="b&gt;a">
+                <then>
+                    <if expression="b&gt;c">
+                        <then>
+                            <output expression="&quot;2nd number is greatest&quot;"/>
+                        </then>
+                        <else/>
+                    </if>
+                </then>
+                <else/>
+            </if>
+            <if expression="c&gt;a">
+                <then>
+                    <if expression="c&gt;b">
+                        <then>
+                            <output expression="&quot;3rd number is greatest&quot;"/>
+                        </then>
+                        <else/>
+                    </if>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Noshad Jawad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-18 05:43:54 PM"/>
+        <attribute name="created" value="Tm9zaGFkIEphd2FkOyBMQVBUT1AtTjlPSzEwOUo7IDIwMjItMTItMTc7IDA5OjUzOjE3IEFNOyAzNTE3"/>
+        <attribute name="edited" value="Tm9zaGFkIEphd2FkOyBMQVBUT1AtTjlPSzEwOUo7IDIwMjItMTItMTg7IDA1OjQzOjU0IFBNOyAzNTI5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="y" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter your year of birth (above 1899) : &quot;"/>
+            <input variable="y"/>
+            <if expression="y%12==4">
+                <then>
+                    <output expression="&quot;You were born in the Rat year&quot;"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="y%12==5">
+                <then>
+                    <output expression="&quot;You were born in the Ox year&quot;"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="y%12==6">
+                <then>
+                    <output expression="&quot;You were born in the Tiger year&quot;"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="y%12==7">
+                <then>
+                    <output expression="&quot;You were born in the Rabbit year&quot;"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="y%12==8">
+                <then>
+                    <output expression="&quot;You were born in the Dragon year&quot;"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="y%12==9">
+                <then>
+                    <output expression="&quot;You were born in the Snake year&quot;"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="y%12==10">
+                <then>
+                    <output expression="&quot;You were born in the Horse year&quot;"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="y%12==11">
+                <then>
+                    <output expression="&quot;You were born in the Goat year&quot;"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="y%12==0">
+                <then>
+                    <output expression="&quot;You were born in the Monkey year&quot;"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="y%12==1">
+                <then>
+                    <output expression="&quot;You were born in the Rooster year&quot;"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="y%12==2">
+                <then>
+                    <output expression="&quot;You were born in the Dog year&quot;"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="y%12==3">
+                <then>
+                    <output expression="&quot;You were born in the Boar year&quot;"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

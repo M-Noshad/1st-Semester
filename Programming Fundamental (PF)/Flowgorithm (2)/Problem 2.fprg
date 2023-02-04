@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Noshad Jawad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-09 03:48:01 PM"/>
+        <attribute name="created" value="Tm9zaGFkIEphd2FkOyBMQVBUT1AtTjlPSzEwOUo7IDIwMjItMTItMDk7IDAzOjQzOjAwIFBNOyAzNTE4"/>
+        <attribute name="edited" value="Tm9zaGFkIEphd2FkOyBMQVBUT1AtTjlPSzEwOUo7IDIwMjItMTItMDk7IDAzOjQ4OjAxIFBNOyAzNTI0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="L" type="Real" array="False" size=""/>
+            <declare name="W" type="Real" array="False" size=""/>
+            <declare name="H" type="Real" array="False" size=""/>
+            <declare name="V" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the length of box : &quot;"/>
+            <input variable="L"/>
+            <output expression="&quot;Enter the width of box : &quot;"/>
+            <input variable="W"/>
+            <output expression="&quot;Enter the height of box : &quot;"/>
+            <input variable="H"/>
+            <assign variable="V" expression="L * W * H"/>
+            <output expression="&quot;Voulme of box : &quot; &amp; V"/>
+        </body>
+    </function>
+</flowgorithm>

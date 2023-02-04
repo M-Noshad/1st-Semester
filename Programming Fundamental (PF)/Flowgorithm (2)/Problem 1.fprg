@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="CS Students"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-08 03:55:23 PM"/>
+        <attribute name="created" value="Q1MgU3R1ZGVudHM7REVTS1RPUC1DRUpBOE5LOzIwMjItMTItMDg7MDE6MzU6MDEgUE07MzM3OA=="/>
+        <attribute name="edited" value="Q1MgU3R1ZGVudHM7REVTS1RPUC1DRUpBOE5LOzIwMjItMTItMDg7MDM6NTU6MjMgUE07MTszNDk0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="name" type="String" array="False" size=""/>
+            <declare name="age" type="Integer" array="False" size=""/>
+            <declare name="rollno" type="String" array="False" size=""/>
+            <declare name="cnic" type="String" array="False" size=""/>
+            <output expression="&quot;Enter your full name : &quot;" newline="True"/>
+            <input variable="name"/>
+            <output expression="&quot;Enter your age : &quot;" newline="True"/>
+            <input variable="age"/>
+            <output expression="&quot;Enter your Roll Number : &quot;" newline="True"/>
+            <input variable="rollno"/>
+            <output expression="&quot;Enter your CNIC Number : &quot;" newline="True"/>
+            <input variable="cnic"/>
+            <output expression="&quot;My name is &quot; &amp; name &amp; &quot;. I am &quot; &amp; age &amp; &quot; years old and my roll number is &quot; &amp; rollno &amp; &quot; and my CNIC number is &quot; &amp; cnic &amp; &quot;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

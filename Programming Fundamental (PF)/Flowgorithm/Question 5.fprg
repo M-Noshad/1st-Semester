@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Noshad Jawad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-17 10:33:25 AM"/>
+        <attribute name="created" value="Tm9zaGFkIEphd2FkOyBMQVBUT1AtTjlPSzEwOUo7IDIwMjItMTItMTc7IDEwOjIyOjU2IEFNOyAzNTA4"/>
+        <attribute name="edited" value="Tm9zaGFkIEphd2FkOyBMQVBUT1AtTjlPSzEwOUo7IDIwMjItMTItMTc7IDEwOjMzOjI1IEFNOyAzNTA2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="input1" type="Integer" array="False" size=""/>
+            <declare name="input2" type="Integer" array="False" size=""/>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter first number : &quot;"/>
+            <input variable="input1"/>
+            <output expression="&quot;Enter second number : &quot;"/>
+            <input variable="input2"/>
+            <output expression="&quot;Press 1 for Addition&quot;"/>
+            <output expression="&quot;Press 2 for Multiplication&quot;"/>
+            <output expression="&quot;Press 3 for Subtraction&quot;"/>
+            <output expression="&quot;Press 4 for Division&quot;"/>
+            <output expression="&quot;Press 5 for Modulus&quot;"/>
+            <input variable="a"/>
+            <if expression="a=1">
+                <then>
+                    <assign variable="a" expression="input1 + input2"/>
+                    <output expression="a"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="a=2">
+                <then>
+                    <assign variable="a" expression="input1 * input2"/>
+                    <output expression="a"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="a=3">
+                <then>
+                    <assign variable="a" expression="input1 - input2"/>
+                    <output expression="a"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="a=4">
+                <then>
+                    <assign variable="a" expression="input1 / input2"/>
+                    <output expression="a"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="a=5">
+                <then>
+                    <assign variable="a" expression="input1 % input2"/>
+                    <output expression="a"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

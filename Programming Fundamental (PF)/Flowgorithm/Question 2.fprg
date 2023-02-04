@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Noshad Jawad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-17 09:59:35 AM"/>
+        <attribute name="created" value="Tm9zaGFkIEphd2FkOyBMQVBUT1AtTjlPSzEwOUo7IDIwMjItMTItMTU7IDAxOjU4OjE3IFBNOyAzNTI3"/>
+        <attribute name="edited" value="Tm9zaGFkIEphd2FkOyBMQVBUT1AtTjlPSzEwOUo7IDIwMjItMTItMTc7IDA5OjU5OjM1IEFNOyAzNTIz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Real" array="False" size=""/>
+            <declare name="b" type="Real" array="False" size=""/>
+            <declare name="c" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter 1st angle : &quot;"/>
+            <input variable="a"/>
+            <output expression="&quot;Enter 2nd angle : &quot;"/>
+            <input variable="b"/>
+            <output expression="&quot;Enter 3rd angle : &quot;"/>
+            <input variable="c"/>
+            <if expression="a==90 OR b==90 OR c==90">
+                <then>
+                    <output expression="&quot;It is right angle triangle&quot;"/>
+                    <if expression="a!=b AND b!=c AND c!=a">
+                        <then>
+                            <output expression="&quot;It is Scalene triangle&quot;"/>
+                        </then>
+                        <else/>
+                    </if>
+                </then>
+                <else>
+                    <if expression="a&lt;90 AND b&lt;90 AND c&lt;90">
+                        <then>
+                            <output expression="&quot;It is Acute triangle&quot;"/>
+                            <if expression="a==60 AND b==60 AND c==60">
+                                <then>
+                                    <output expression="&quot;It is Equilateral triangle&quot;"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;It is Scalene triangle&quot;"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <if expression="a!=b AND b!=c AND c!=a">
+                                <then>
+                                    <output expression="&quot;It is Scalene triangle&quot;"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

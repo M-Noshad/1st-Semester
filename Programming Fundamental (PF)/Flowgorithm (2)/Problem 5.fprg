@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Noshad Jawad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-09 04:20:15 PM"/>
+        <attribute name="created" value="Tm9zaGFkIEphd2FkOyBMQVBUT1AtTjlPSzEwOUo7IDIwMjItMTItMDk7IDAzOjQ4OjA2IFBNOyAzNTI5"/>
+        <attribute name="edited" value="Tm9zaGFkIEphd2FkOyBMQVBUT1AtTjlPSzEwOUo7IDIwMjItMTItMDk7IDA0OjIwOjE1IFBNOyAzNTIw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="salary" type="Integer" array="False" size=""/>
+            <declare name="med" type="Real" array="False" size=""/>
+            <declare name="rent" type="Real" array="False" size=""/>
+            <declare name="allowances" type="Real" array="False" size=""/>
+            <declare name="totalallowances" type="Integer" array="False" size=""/>
+            <declare name="totalsalary" type="Integer" array="False" size=""/>
+            <declare name="annualsalary" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter your salary : &quot;"/>
+            <input variable="salary"/>
+            <assign variable="med" expression="30/100"/>
+            <assign variable="rent" expression="25/100"/>
+            <assign variable="allowances" expression="med + rent"/>
+            <assign variable="totalallowances" expression="salary * allowances"/>
+            <assign variable="totalsalary" expression="salary + totalallowances"/>
+            <assign variable="annualsalary" expression="totalsalary * 12"/>
+            <output expression="&quot;Total Salary per month : &quot; &amp; totalsalary &amp; &quot; Rs&quot;"/>
+            <output expression="&quot;Total Salary per year (annual salary): &quot; &amp; annualsalary &amp; &quot; Rs&quot;"/>
+        </body>
+    </function>
+</flowgorithm>

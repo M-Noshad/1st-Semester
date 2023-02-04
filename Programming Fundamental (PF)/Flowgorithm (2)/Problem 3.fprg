@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Noshad Jawad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-09 03:31:59 PM"/>
+        <attribute name="created" value="Tm9zaGFkIEphd2FkOyBMQVBUT1AtTjlPSzEwOUo7IDIwMjItMTItMDk7IDAzOjE1OjE3IFBNOyAzNTI1"/>
+        <attribute name="edited" value="Tm9zaGFkIEphd2FkOyBMQVBUT1AtTjlPSzEwOUo7IDIwMjItMTItMDk7IDAzOjMxOjU5IFBNOyAzNTI5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="eng" type="Real" array="False" size=""/>
+            <declare name="calc" type="Real" array="False" size=""/>
+            <declare name="pf" type="Real" array="False" size=""/>
+            <declare name="obtm" type="Real" array="False" size=""/>
+            <declare name="avgm" type="Real" array="False" size=""/>
+            <declare name="perm" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter your marks in English out of 100 : &quot;"/>
+            <input variable="eng"/>
+            <output expression="&quot;Enter your marks in Calculus out of 100 : &quot;"/>
+            <input variable="calc"/>
+            <output expression="&quot;Enter your marks in PF out of 100 : &quot;"/>
+            <input variable="pf"/>
+            <assign variable="obtm" expression="eng + calc + pf"/>
+            <assign variable="avgm" expression="obtm/3"/>
+            <assign variable="perm" expression="obtm / 300 * 100"/>
+            <output expression="&quot;Average marks : &quot; &amp; avgm"/>
+            <output expression="&quot;Percentage marks : &quot; &amp; perm &amp; &quot;%&quot;"/>
+        </body>
+    </function>
+</flowgorithm>

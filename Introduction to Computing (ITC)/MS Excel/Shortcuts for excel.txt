@@ -1,0 +1,14 @@
+cntrl+arrows
+right click on sheet and rename (Left bottom corner)
+address of cell = row number, column number
+select column and select summation (Right top corner)
+=SUM(B1:C6) 
+=B7
+=ceil(3.22,0)
+=floor(3.22,0)
+=(K9-J9)
+=(K9/J9)
+=count(G4:G86)
+=COUNTIF(G4:G86, "<10")
+=COUNTIFS(L3:L9,">3",L3:L9,"<5")
+=ROUND(J8/K8,2)

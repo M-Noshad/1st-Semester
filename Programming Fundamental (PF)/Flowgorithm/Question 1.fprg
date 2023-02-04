@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Noshad Jawad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-15 01:56:12 PM"/>
+        <attribute name="created" value="Tm9zaGFkIEphd2FkOyBMQVBUT1AtTjlPSzEwOUo7IDIwMjItMTItMTU7IDAxOjUxOjQ4IFBNOyAzNTI0"/>
+        <attribute name="edited" value="Tm9zaGFkIEphd2FkOyBMQVBUT1AtTjlPSzEwOUo7IDIwMjItMTItMTU7IDAxOjU2OjEyIFBNOyAzNTIw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Real" array="False" size=""/>
+            <declare name="b" type="Real" array="False" size=""/>
+            <declare name="c" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter 1st angle : &quot;"/>
+            <input variable="a"/>
+            <output expression="&quot;Enter 2nd angle : &quot;"/>
+            <input variable="b"/>
+            <output expression="&quot;Enter 3rd angle : &quot;"/>
+            <input variable="c"/>
+            <if expression="a+b+c==180">
+                <then>
+                    <output expression="&quot;It is a valid triangle&quot;"/>
+                </then>
+                <else>
+                    <output expression="&quot;It is not a valid triangle&quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

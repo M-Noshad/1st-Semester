@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Noshad Jawad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-09 03:02:53 PM"/>
+        <attribute name="created" value="Tm9zaGFkIEphd2FkOyBMQVBUT1AtTjlPSzEwOUo7IDIwMjItMTItMDk7IDAyOjQ5OjIyIFBNOyAzNTI3"/>
+        <attribute name="edited" value="Tm9zaGFkIEphd2FkOyBMQVBUT1AtTjlPSzEwOUo7IDIwMjItMTItMDk7IDAzOjAyOjUzIFBNOyAzNTIx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="name" type="String" array="False" size=""/>
+            <declare name="age" type="Integer" array="False" size=""/>
+            <declare name="dept" type="String" array="False" size=""/>
+            <declare name="salary" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter your name : &quot;"/>
+            <input variable="name"/>
+            <output expression="&quot;Enter your age : &quot;"/>
+            <input variable="age"/>
+            <output expression="&quot;Enter your department : &quot;"/>
+            <input variable="dept"/>
+            <output expression="&quot;Enter your salary : &quot;"/>
+            <input variable="salary"/>
+            <output expression="&quot;Employee name is &quot; &amp; name &amp; &quot;. He is &quot; &amp; age &amp; &quot; years old and belong to &quot; &amp; dept &amp; &quot; department having monthly salary &quot; &amp; salary &amp; &quot; rupees.&quot;"/>
+        </body>
+    </function>
+</flowgorithm>
